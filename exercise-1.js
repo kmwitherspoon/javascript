@@ -52,6 +52,19 @@ console.log(getAverageTime(matt));
 console.log(getAverageTime(mark));
 
 
+var getAverageTime = function(person) {
+  "use strict";
+   var avg = 0;
+   var inc = 0;
+   for (var i in person) {
+     avg += person[i]; console.log(person[i]); inc++;
+   }
+   avg = avg/inc;
+   return avg;
+}
+
+getAverageTime(matt)
+
 /**
  * PART 3
  *
@@ -84,7 +97,13 @@ function addToBank(account, savings, retirement, checking) {
 
 function getSumOfAccounts(account) {
     "use strict";
-    // return ...
+    var sum = 0;
+    var inc = 0;
+    for (var i in account) {
+      sum += account[i]; console.log(account[i]); inc++;
+    }
+    sum = sum + inc;
+    return sum;
 }
 
 addToBank(MattsBankAccount, 100, 10, 1);

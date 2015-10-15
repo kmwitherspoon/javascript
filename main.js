@@ -29,7 +29,7 @@ if(inlaws) {
           console.log("You get eaten by a t-rex. The end.");
         }
       }
-  } else {
+} else {
   if(spousefather === false) {
     console.log("Your father-in-law is mauled by the raptor and your spouse is hysterical. Your spouse runs straight into the Allosaurus exhibit.");
     var spouse = confirm("Do you go after your spouse?");

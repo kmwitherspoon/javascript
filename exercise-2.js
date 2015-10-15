@@ -238,6 +238,14 @@ var decreaseScore = function() {
 
 // Put your answer below -------------------------
 
+var score = function() {
+  var newScore = 0;
+  var increaseScore = function{
+    newScore++;
+  }
+  var decreaseScore = function{
+    score--;
+  }}
 
 // -----------------------------------------------
 
@@ -258,7 +266,6 @@ var twoPlusTwo = addNumbers(2,2);
 
 // Put your answer below -------------------------
 
-var twoPlusTwo = addNumbers(2,2);
 
 var addNumbers = function(a, b) {
   return(a + b);
@@ -290,6 +297,17 @@ var accelerate = function(amount) {
 };
 
 // Put your answer below -------------------------
+//There was no numeric value available for amount.
+
+var speed = 0;
+var accelerate = function(amount) {
+  if(isNaN(amount)) {
+    soeed = 1;
+  } else {
+    speed += amount;
+  }
+  return speed
+};
 
 
 
